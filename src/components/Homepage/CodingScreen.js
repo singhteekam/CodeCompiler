@@ -15,7 +15,7 @@ const CodingScreen = ({onChange, language, code, theme}) => {
   return (
     <div className='coding-screen'>
         <Editor 
-            height="60vh"
+            height="55vh"
             width="100%"
             language={language || "C++"}
             value={value}

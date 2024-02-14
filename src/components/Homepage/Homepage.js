@@ -31,6 +31,23 @@ const Homepage = () => {
 
   const [apiKey, setApiKey] = useState(process.env.REACT_APP_RAPID_API_KEY1);
 
+    useEffect(()=>{
+      const randomKey= Math.floor(Math.random() * 2) + 1;
+      switch (randomKey) {
+        case 0:
+          setApiKey(process.env.REACT_APP_RAPID_API_KEY1);
+          console.log("Using key1");
+          break;
+        case 1:
+          setApiKey(process.env.REACT_APP_RAPID_API_KEY2);
+          console.log("Using key2");
+          break;
+        default:
+          setApiKey(process.env.REACT_APP_RAPID_API_KEY1);
+          console.log("Default Using key1");
+      }
+    }, []);
+
   const onSelectChange = (sl) => {
     console.log("selected Option...", sl);
     setLanguage(sl);
