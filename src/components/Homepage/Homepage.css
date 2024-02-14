@@ -1,0 +1,37 @@
+
+.coding-screen, 
+.output-header, 
+.custom-input, 
+.compile-button,
+.output-info, 
+.output-details{
+    margin: 5px 20px;
+}
+
+.custom-input{
+    width:90%;
+}
+
+
+.select-column {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+  }
+
+
+.result-display{
+    min-height: 50px;
+    margin: 10px 20px;
+    background-color: #c0acac; /* Set background color */
+  border: 1px solid #ccc; /* Set border */
+  padding: 20px; /* Add padding if needed */
+  border-radius: 5px;
+}
+
+.output-info{
+  background-color: #f0f0f0; /* Set background color */
+  border: 1px solid #ccc; /* Set border */
+  padding: 20px; /* Add padding if needed */
+  border-radius: 5px;
+}
