@@ -34,11 +34,11 @@ const Homepage = () => {
     useEffect(()=>{
       const randomKey= Math.floor(Math.random() * 2) + 1;
       switch (randomKey) {
-        case 0:
+        case 1:
           setApiKey(process.env.REACT_APP_RAPID_API_KEY1);
           console.log("Using key1");
           break;
-        case 1:
+        case 2:
           setApiKey(process.env.REACT_APP_RAPID_API_KEY2);
           console.log("Using key2");
           break;
