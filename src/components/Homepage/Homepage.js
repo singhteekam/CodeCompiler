@@ -167,8 +167,20 @@ const Homepage = () => {
 
   return (
     <div>
+      <div className="top-header">
+          <div className="header-items codecompiler">Code Compiler</div>
+          <div className="header-items language">
+          <LanguagesDropdown onSelectChange={onSelectChange} />
+          </div>
+          <div className="header-items theme">
+          <ThemesDropdown
+              handleThemeChange={handleThemeChange}
+              theme={theme}
+            />
+          </div>
+      </div>
       {/* Languages and Themes */}
-      <Row className="justify-content-center">
+      {/* <Row className="justify-content-center">
         <Col className="select-column">
           <Row>
             <h6>Language:</h6>
@@ -184,7 +196,7 @@ const Homepage = () => {
             />
           </Row>
         </Col>
-      </Row>
+      </Row> */}
 
       {/* Coding window */}
       <div>

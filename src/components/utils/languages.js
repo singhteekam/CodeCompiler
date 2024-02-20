@@ -23,6 +23,12 @@ export const languages = [
     label: "Java (OpenJDK 13.0.1)",
     value: "java",
   },
+  // {
+  //   id: 65,
+  //   name: "HTML",
+  //   label: "HTML",
+  //   value: "html",
+  // },
   {
     id: 45,
     name: "Assembly (NASM 2.14.02)",
@@ -174,12 +180,12 @@ export const languages = [
     label: "Objective-C (Clang 7.0.1)",
     value: "objectivec",
   },
-  {
-    id: 65,
-    name: "OCaml (4.09.0)",
-    label: "OCaml (4.09.0)",
-    value: "ocaml",
-  },
+  // {
+  //   id: 65,
+  //   name: "OCaml (4.09.0)",
+  //   label: "OCaml (4.09.0)",
+  //   value: "ocaml",
+  // },
   {
     id: 66,
     name: "Octave (5.1.0)",
@@ -275,5 +281,5 @@ export const languages = [
     name: "Visual Basic.Net (vbnc 0.0.0.5943)",
     label: "Visual Basic.Net (vbnc 0.0.0.5943)",
     value: "vbnet",
-  },
+  }
 ];

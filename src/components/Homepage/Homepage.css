@@ -1,4 +1,25 @@
 
+.top-header{
+  margin: 5px 20px;
+  display: flex;
+  /* justify-content: center; */
+  justify-content:space-between;
+  background-color: black;
+  /* color: white; */
+  border-radius: 8px;
+}
+
+.header-items{
+  margin: 5px;
+}
+
+.codecompiler{
+  padding-left: 10px;
+  color: rgb(237, 212, 218);
+  font-weight: bold;
+  font-size:x-large;
+}
+
 .coding-screen, 
 .output-header, 
 .custom-input, 
@@ -34,4 +55,14 @@
   border: 1px solid #ccc; /* Set border */
   padding: 20px; /* Add padding if needed */
   border-radius: 5px;
+}
+
+
+@media only screen and (max-width:560px) {
+  .top-header{
+    flex-direction: column;
+  }
+  .codecompiler{
+    font-size:large;
+  }
 }
