@@ -179,24 +179,6 @@ const Homepage = () => {
             />
           </div>
       </div>
-      {/* Languages and Themes */}
-      {/* <Row className="justify-content-center">
-        <Col className="select-column">
-          <Row>
-            <h6>Language:</h6>
-            <LanguagesDropdown onSelectChange={onSelectChange} />
-          </Row>
-        </Col>
-        <Col className="select-column">
-          <Row>
-            <h6>Theme:</h6>
-            <ThemesDropdown
-              handleThemeChange={handleThemeChange}
-              theme={theme}
-            />
-          </Row>
-        </Col>
-      </Row> */}
 
       {/* Coding window */}
       <div>
@@ -230,6 +212,13 @@ const Homepage = () => {
         </div>
 
         {outputInfo && <OutputInfo outputInfo={outputInfo} />}
+      </div>
+
+      {/* Footer */}
+      <div className="footer">
+        <div className="footer-items">
+          Developed by <a href="https://www.singhteekam.in" target="_blank">Teekam Singh</a>
+        </div>
       </div>
     </div>
   );

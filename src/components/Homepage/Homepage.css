@@ -1,6 +1,6 @@
 
 .top-header{
-  margin: 5px 20px;
+  margin: 5px 10px;
   display: flex;
   /* justify-content: center; */
   justify-content:space-between;
@@ -26,7 +26,7 @@
 .compile-button,
 .output-info, 
 .output-details{
-    margin: 5px 20px;
+    margin: 5px 10px;
 }
 
 .custom-input{
@@ -43,7 +43,7 @@
 
 .result-display{
     min-height: 50px;
-    margin: 10px 20px;
+    margin: 10px 10px;
     background-color: #dfdada; /* Set background color */
   border: 1px solid #ccc; /* Set border */
   padding: 20px; /* Add padding if needed */
@@ -55,6 +55,24 @@
   border: 1px solid #ccc; /* Set border */
   padding: 20px; /* Add padding if needed */
   border-radius: 5px;
+}
+
+.footer{
+  margin: 5px 10px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border-radius: 8px;
+}
+
+.footer-items{
+  color: white;
+  font-weight: bold;
+}
+
+.footer-items a{
+  text-decoration: none;
+  color: rgb(237, 212, 218);
 }
 
 

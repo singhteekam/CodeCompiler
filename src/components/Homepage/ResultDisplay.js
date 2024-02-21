@@ -39,7 +39,7 @@ const ResultDisplay = ({ outputInfo }) => {
         Output
       </h4>
       <div className="result-display">
-        {outputInfo ? <>{getOutput()}</> : null}
+        <p>{outputInfo ? <>{getOutput()}</> : null}</p>
       </div>
     </>
   );
